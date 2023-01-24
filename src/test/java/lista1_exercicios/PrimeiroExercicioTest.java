@@ -1,4 +1,4 @@
-package exercicios1;
+package lista1_exercicios;
 
 import org.junit.Test;
 

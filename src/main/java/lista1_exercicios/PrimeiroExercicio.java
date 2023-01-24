@@ -1,4 +1,4 @@
-package exercicios1;
+package lista1_exercicios;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class PrimeiroExercicio {
         valorB = scanner.nextInt();
 
         resultado = soma(valorA , valorB);
-        System.out.println("A soma do valor a e valor b é: " + resultado);
+        System.out.printf("A soma do valor a e valor b é: " + resultado);
 
     }
     public static int soma(int valorA, int valorB){
