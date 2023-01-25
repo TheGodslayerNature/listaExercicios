@@ -5,28 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FuncoesAula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrimeiraEntradaDeDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SegundaEntradaDeDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/PrimeiroExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/QuartoExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/QuintoExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/SegundoExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/SextoExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista1_exercicios/TerceiroExercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/PrimeiroExercicioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/QuartoExercicioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/QuintoExercicioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/SegundoExercicioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/SextoExercicioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista1_exercicios/TerceiroExercicioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/HoraDoJogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Multiplos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/ParOuImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Positive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/HoraDOJogoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/MultiplosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/ParOuImparTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/PositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/ProdutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/asalves/Documentos/curso/listaExercicios"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/asalves/Documentos/curso/listaExercicios&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.lista1_exercicios in lista_de_exercicios">
-    <configuration name="SextoExercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista1_exercicios.SextoExercicio" />
+  <component name="RunManager" selected="Application.Produto">
+    <configuration name="Produto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.Produto" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista1_exercicios.*" />
+          <option name="PATTERN" value="lista2_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,76 +75,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuintoExercicioTest.testPagarPorPecas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HoraDOJogoTest.testHoraDoJogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista1_exercicios.*" />
+          <option name="PATTERN" value="lista2_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista1_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista1_exercicios.QuintoExercicioTest" />
-      <option name="METHOD_NAME" value="testPagarPorPecas" />
+      <option name="PACKAGE_NAME" value="lista2_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.HoraDOJogoTest" />
+      <option name="METHOD_NAME" value="testHoraDoJogo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SextoExercicioTest.testArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiplosTest.testMultiplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista1_exercicios.*" />
+          <option name="PATTERN" value="lista2_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista1_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista1_exercicios.SextoExercicioTest" />
-      <option name="METHOD_NAME" value="testArea" />
+      <option name="PACKAGE_NAME" value="lista2_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.MultiplosTest" />
+      <option name="METHOD_NAME" value="testMultiplo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SextoExercicioTest.testAreaDoTrianguloRetangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutoTest.testMaisDe1Produto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista1_exercicios.*" />
+          <option name="PATTERN" value="lista2_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista1_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista1_exercicios.SextoExercicioTest" />
-      <option name="METHOD_NAME" value="testAreaDoTrianguloRetangulo" />
+      <option name="PACKAGE_NAME" value="lista2_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ProdutoTest" />
+      <option name="METHOD_NAME" value="testMaisDe1Produto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lista1_exercicios in lista_de_exercicios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutoTest.testProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/lista1_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista2_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista2_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ProdutoTest" />
+      <option name="METHOD_NAME" value="testProduto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SextoExercicio" />
-      <item itemvalue="JUnit.lista1_exercicios in lista_de_exercicios" />
-      <item itemvalue="JUnit.QuintoExercicioTest.testPagarPorPecas" />
-      <item itemvalue="JUnit.SextoExercicioTest.testArea" />
-      <item itemvalue="JUnit.SextoExercicioTest.testAreaDoTrianguloRetangulo" />
+      <item itemvalue="Application.Produto" />
+      <item itemvalue="JUnit.ProdutoTest.testMaisDe1Produto" />
+      <item itemvalue="JUnit.ProdutoTest.testProduto" />
+      <item itemvalue="JUnit.HoraDOJogoTest.testHoraDoJogo" />
+      <item itemvalue="JUnit.MultiplosTest.testMultiplo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.lista1_exercicios in lista_de_exercicios" />
-        <item itemvalue="Application.SextoExercicio" />
-        <item itemvalue="JUnit.SextoExercicioTest.testArea" />
-        <item itemvalue="JUnit.SextoExercicioTest.testAreaDoTrianguloRetangulo" />
-        <item itemvalue="JUnit.QuintoExercicioTest.testPagarPorPecas" />
+        <item itemvalue="Application.Produto" />
+        <item itemvalue="JUnit.ProdutoTest.testMaisDe1Produto" />
+        <item itemvalue="JUnit.ProdutoTest.testProduto" />
+        <item itemvalue="JUnit.HoraDOJogoTest.testHoraDoJogo" />
+        <item itemvalue="JUnit.MultiplosTest.testMultiplo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,5 +166,16 @@
       <updated>1674131465689</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
