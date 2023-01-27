@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/HoraDoJogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Multiplos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/ParOuImpar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Positive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/HoraDOJogoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/MultiplosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/ParOuImparTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/PositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/ProdutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Imposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Intervalos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/PlanoCartesiano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/ImpostoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/IntervalosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista2_exercicios/PlanoCartesianoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +57,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Produto">
-    <configuration name="Produto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.Produto" />
+  <component name="RunManager" selected="JUnit.ImpostoTest">
+    <configuration name="PlanoCartesiano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.PlanoCartesiano" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoraDOJogoTest.testHoraDoJogo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImpostoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +80,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista2_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.HoraDOJogoTest" />
-      <option name="METHOD_NAME" value="testHoraDoJogo" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ImpostoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImpostoTest.testImposto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista2_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista2_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ImpostoTest" />
+      <option name="METHOD_NAME" value="testImposto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplosTest.testMultiplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImpostoTest.testIsento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista2_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.MultiplosTest" />
-      <option name="METHOD_NAME" value="testMultiplo" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ImpostoTest" />
+      <option name="METHOD_NAME" value="testIsento" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.testMaisDe1Produto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlanoCartesianoTest.testPlanoCartesiano" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -116,43 +127,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista2_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ProdutoTest" />
-      <option name="METHOD_NAME" value="testMaisDe1Produto" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutoTest.testProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista2_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista2_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.ProdutoTest" />
-      <option name="METHOD_NAME" value="testProduto" />
+      <option name="MAIN_CLASS_NAME" value="lista2_exercicios.PlanoCartesianoTest" />
+      <option name="METHOD_NAME" value="testPlanoCartesiano" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Produto" />
-      <item itemvalue="JUnit.ProdutoTest.testMaisDe1Produto" />
-      <item itemvalue="JUnit.ProdutoTest.testProduto" />
-      <item itemvalue="JUnit.HoraDOJogoTest.testHoraDoJogo" />
-      <item itemvalue="JUnit.MultiplosTest.testMultiplo" />
+      <item itemvalue="Application.PlanoCartesiano" />
+      <item itemvalue="JUnit.ImpostoTest" />
+      <item itemvalue="JUnit.ImpostoTest.testImposto" />
+      <item itemvalue="JUnit.ImpostoTest.testIsento" />
+      <item itemvalue="JUnit.PlanoCartesianoTest.testPlanoCartesiano" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Produto" />
-        <item itemvalue="JUnit.ProdutoTest.testMaisDe1Produto" />
-        <item itemvalue="JUnit.ProdutoTest.testProduto" />
-        <item itemvalue="JUnit.HoraDOJogoTest.testHoraDoJogo" />
-        <item itemvalue="JUnit.MultiplosTest.testMultiplo" />
+        <item itemvalue="JUnit.ImpostoTest" />
+        <item itemvalue="JUnit.ImpostoTest.testIsento" />
+        <item itemvalue="JUnit.ImpostoTest.testImposto" />
+        <item itemvalue="Application.PlanoCartesiano" />
+        <item itemvalue="JUnit.PlanoCartesianoTest.testPlanoCartesiano" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674131465689</updated>
     </task>
+    <task id="LOCAL-00001" summary="questão 6">
+      <created>1674662816936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674662816936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="questão 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="questão 6" />
   </component>
 </project>
