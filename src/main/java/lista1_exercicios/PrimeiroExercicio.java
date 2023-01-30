@@ -15,7 +15,7 @@ public class PrimeiroExercicio {
 
         resultado = soma(valorA , valorB);
         System.out.printf("A soma do valor a e valor b é: " + resultado);
-
+        scanner.close();
     }
     public static int soma(int valorA, int valorB){
         return valorA + valorB;

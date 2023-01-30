@@ -24,6 +24,7 @@ public class QuartoExercicio {
         String resultado = funcionarioDado(funcionarioNumber,horasTrabalhadas,valorporHoras);
 
         System.out.println(resultado);
+        scanner.close();
     }
     public static String funcionarioDado(int funcionarioNumber, int horasTrabalhadas, double valorPorhora){
         Locale.setDefault(Locale.ENGLISH);

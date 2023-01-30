@@ -21,6 +21,7 @@ public class SextoExercicio {
 
         String resultado = area(A,B,C);
         System.out.println(resultado);
+        scanner.close();
     }
     public static String area(double A,double B, double C){
         Locale.setDefault(Locale.ENGLISH);

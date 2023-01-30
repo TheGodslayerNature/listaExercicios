@@ -15,6 +15,7 @@ public class HoraDoJogo {
 
         int resultado = duracao(inicio, termino);
         System.out.println("O JOGO DUROU " + resultado + " HORA(S)");
+        scanner.close();
     }
     public static int duracao(int inicio,int termino){
         int duracaoTotalDoJogo = 24;

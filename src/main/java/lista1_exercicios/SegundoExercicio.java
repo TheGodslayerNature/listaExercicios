@@ -17,6 +17,7 @@ public class SegundoExercicio {
 
         String resultado = raio(raio);
         System.out.printf("O resultado é " + resultado);
+        scanner.close();
     }
     public static String raio(double raio){
         Locale.setDefault(Locale.ENGLISH);

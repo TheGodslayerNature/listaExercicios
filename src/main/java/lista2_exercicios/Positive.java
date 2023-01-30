@@ -13,6 +13,7 @@ public class Positive {
             System.out.println("NÃO NEGATIVO");
         else
             System.out.println("NEGATIVO");
+        scanner.close();
     }
     public static boolean isPositive(int inteiro){
         return inteiro >= 0;

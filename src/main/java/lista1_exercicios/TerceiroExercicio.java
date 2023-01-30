@@ -18,6 +18,7 @@ public class TerceiroExercicio {
 
         int resultado = diferenca(A,B,C,D);
         System.out.println("A diferença é igual a = " + resultado);
+        scanner.close();
     }
     public static int diferenca(int a, int b, int c, int d){
         return a * b - c * d;

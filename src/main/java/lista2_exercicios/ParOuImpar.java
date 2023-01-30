@@ -13,6 +13,7 @@ public class ParOuImpar {
             System.out.println("PAR");
         else
             System.out.println("IMPAR");
+        scanner.close();
     }
     public static boolean isPar(int inteiro){
         return inteiro % 2 == 0;

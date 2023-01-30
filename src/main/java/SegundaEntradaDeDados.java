@@ -14,5 +14,6 @@ public class SegundaEntradaDeDados {
          System.out.println(x);
          System.out.println(y);
          System.out.println(v);
+         scanner.close();
      }
 }

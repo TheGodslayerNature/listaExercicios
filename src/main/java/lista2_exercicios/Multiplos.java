@@ -16,6 +16,7 @@ public class Multiplos {
             System.out.println("São multiplos");
         else
             System.out.println("Não são multiplos");
+        scanner.close();
     }
     public static boolean saoMultiplos(int a, int b){
         return a % b == 0 || b % a == 0;

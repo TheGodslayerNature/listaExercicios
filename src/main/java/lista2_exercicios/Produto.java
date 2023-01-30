@@ -15,6 +15,7 @@ public class Produto {
 
         double resultado = valorAPagar(codigo, quantidade);
         System.out.println("Total: R$ " + resultado);
+        scanner.close();
     }
     public static double valorAPagar(int codigo,int quantidade){
         return switch (codigo) {

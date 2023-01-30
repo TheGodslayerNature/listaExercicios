@@ -14,6 +14,7 @@ public class PlanoCartesiano {
 
         String resultado = coordenadas(coordenadaX,coordenadaY);
         System.out.println(resultado);
+        scanner.close();
     }
     public static String coordenadas(double coordenadaX, double coordenadaY){
         if (coordenadaX > 0.0 && coordenadaY > 0.0) {

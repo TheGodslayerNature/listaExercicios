@@ -31,6 +31,7 @@ public class QuintoExercicio {
 
         String resultado = pagarPecasTotal(pecasQuantidade1,valorUnitario1,pecasQuantidade2,valorUnitario2);
         System.out.println(resultado);
+        scanner.close();
     }
     public static double pagarPecas1(int pecasQuantidade, double valorUnitario){
         return pecasQuantidade * valorUnitario;

@@ -14,6 +14,7 @@ public class Intervalos {
 
         String resultado = qualIntervalo(valor);
         System.out.println(resultado);
+        scanner.close();
     }
     public static String qualIntervalo(double valor){
         if (valor == 25.01)
