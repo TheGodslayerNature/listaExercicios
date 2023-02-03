@@ -1,4 +1,4 @@
-package lista4.exercicios;
+package lista4_exercicios;
 
 import java.util.Scanner;
 
@@ -17,6 +17,7 @@ public class Impares {
         for (int i = 1; i <= x; i+=2){
                 System.out.println(i);
         }
+        scanner.close();
     }
 }
 

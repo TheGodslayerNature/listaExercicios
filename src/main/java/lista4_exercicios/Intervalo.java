@@ -1,4 +1,4 @@
-package lista3_exercicios;
+package lista4_exercicios;
 
 import java.util.Scanner;
 
@@ -18,5 +18,6 @@ public class Intervalo {
             }
         }
         System.out.println(countIn + " in" + '\n' + countOut + " out");
+        scanner.close();
     }
 }

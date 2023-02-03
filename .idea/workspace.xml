@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Exercicios parte 3 terminado.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ternario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/enquanto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista3_exercicios/Combustiveis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista3_exercicios/Intervalo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista3_exercicios/PlanoCartesiano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista3_exercicios/Senha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4/exercicios/Impares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Exercicios parte 4 1 e 2 feitos.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CalcularCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/ProductsProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entities/TriangleProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Dividindo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Divisores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Linhas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/MediaPonderada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/RetanguloProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ProductsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/TriangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista5_exercicios/RetanguloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista5_exercicios/TestFuncionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista3_exercicios/Intervalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Intervalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista4/exercicios/Impares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +70,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="entities" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Intervalo">
-    <configuration name="Combustiveis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista3_exercicios.Combustiveis" />
+  <component name="RunManager" selected="JUnit.TestFuncionario">
+    <configuration name="ProductsProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entities.ProductsProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista3_exercicios.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Impares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista4.exercicios.Impares" />
+    <configuration name="RetanguloProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.RetanguloProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista4.exercicios.*" />
+          <option name="PATTERN" value="lista5_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,64 +101,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intervalo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista3_exercicios.Intervalo" />
+    <configuration name="RetanguloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista3_exercicios.*" />
+          <option name="PATTERN" value="lista5_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CombustiveisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista3_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista3_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista3_exercicios.CombustiveisTest" />
+      <option name="PACKAGE_NAME" value="lista5_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.RetanguloTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombustiveisTest.testAlcool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RetanguloTest.testRetangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista3_exercicios.*" />
+          <option name="PATTERN" value="lista5_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista3_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista3_exercicios.CombustiveisTest" />
-      <option name="METHOD_NAME" value="testAlcool" />
+      <option name="PACKAGE_NAME" value="lista5_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.RetanguloTest" />
+      <option name="METHOD_NAME" value="testRetangulo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista5_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista5_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.TestFuncionario" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Impares" />
-      <item itemvalue="Application.Intervalo" />
-      <item itemvalue="Application.Combustiveis" />
-      <item itemvalue="JUnit.CombustiveisTest" />
-      <item itemvalue="JUnit.CombustiveisTest.testAlcool" />
+      <item itemvalue="Application.ProductsProgram" />
+      <item itemvalue="Application.RetanguloProgram" />
+      <item itemvalue="JUnit.RetanguloTest" />
+      <item itemvalue="JUnit.RetanguloTest.testRetangulo" />
+      <item itemvalue="JUnit.TestFuncionario" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Intervalo" />
-        <item itemvalue="Application.Impares" />
-        <item itemvalue="Application.Combustiveis" />
-        <item itemvalue="JUnit.CombustiveisTest" />
-        <item itemvalue="JUnit.CombustiveisTest.testAlcool" />
+        <item itemvalue="JUnit.TestFuncionario" />
+        <item itemvalue="Application.RetanguloProgram" />
+        <item itemvalue="JUnit.RetanguloTest" />
+        <item itemvalue="JUnit.RetanguloTest.testRetangulo" />
+        <item itemvalue="Application.ProductsProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674662816936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercicios parte 4 1 e 2 feitos.">
+      <created>1675253248206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675253248206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="questão 6" />
     <MESSAGE value="Exercicios parte 3 terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios parte 3 terminado." />
+    <MESSAGE value="Exercicios parte 4 1 e 2 feitos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios parte 4 1 e 2 feitos." />
   </component>
 </project>
