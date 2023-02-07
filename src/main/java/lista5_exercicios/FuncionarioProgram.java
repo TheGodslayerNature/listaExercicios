@@ -13,5 +13,6 @@ public class FuncionarioProgram {
         System.out.print("Informe uma porcentagem: ");
         funcionario.increseSalary(scanner.nextDouble());
         System.out.println(funcionario.toString());
+        scanner.close();
     }
 }

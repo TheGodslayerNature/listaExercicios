@@ -13,6 +13,6 @@ public class RetanguloProgram {
         System.out.print("Digite a base: ");
         retangulo.setWidth(scanner.nextDouble());
         System.out.printf("area = %.2f%nPerimeter = %.2f%nDiagonal = %.2f", retangulo.area(), retangulo.perimeter(), retangulo.diagonal());
-
+        scanner.close();
     }
 }
