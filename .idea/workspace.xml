@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Exercicios parte 4 1 e 2 feitos.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CalcularCelsius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/ProductsProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entities/TriangleProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Dividindo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Divisores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Fatorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Linhas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/MediaPonderada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/RetanguloProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/ProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entities/TriangleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista5_exercicios/RetanguloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista5_exercicios/TestFuncionario.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="exercicios da lista 5.&#10;Retangulo termiando.&#10;fazendo funcionario.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/FuncionarioProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista3_exercicios/Intervalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Intervalo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista4/exercicios/Impares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista5_exercicios/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lista5_exercicios/TestFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lista5_exercicios/TestFuncionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/asalves/Documentos/curso/listaExercicios&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/asalves/Documentos/chapter-2-start/train-timetables&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -74,13 +58,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFuncionario">
-    <configuration name="ProductsProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entities.ProductsProgram" />
+  <component name="RunManager" selected="Application.FuncionarioProgram">
+    <configuration name="FuncionarioProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.FuncionarioProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="entities.*" />
+          <option name="PATTERN" value="lista5_exercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,22 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetanguloTest.testRetangulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista5_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista5_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.RetanguloTest" />
-      <option name="METHOD_NAME" value="testRetangulo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
@@ -147,20 +115,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFuncionario.testFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista5_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista5_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista5_exercicios.TestFuncionario" />
+      <option name="METHOD_NAME" value="testFuncionario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ProductsProgram" />
+      <item itemvalue="Application.FuncionarioProgram" />
       <item itemvalue="Application.RetanguloProgram" />
+      <item itemvalue="JUnit.TestFuncionario.testFuncionario" />
       <item itemvalue="JUnit.RetanguloTest" />
-      <item itemvalue="JUnit.RetanguloTest.testRetangulo" />
       <item itemvalue="JUnit.TestFuncionario" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncionarioProgram" />
+        <item itemvalue="JUnit.TestFuncionario.testFuncionario" />
         <item itemvalue="JUnit.TestFuncionario" />
         <item itemvalue="Application.RetanguloProgram" />
         <item itemvalue="JUnit.RetanguloTest" />
-        <item itemvalue="JUnit.RetanguloTest.testRetangulo" />
-        <item itemvalue="Application.ProductsProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675253248206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="exercicios da lista 5.&#10;Retangulo termiando.&#10;fazendo funcionario.">
+      <created>1675442468650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675442468650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +196,7 @@
     <MESSAGE value="questão 6" />
     <MESSAGE value="Exercicios parte 3 terminado." />
     <MESSAGE value="Exercicios parte 4 1 e 2 feitos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios parte 4 1 e 2 feitos." />
+    <MESSAGE value="exercicios da lista 5.&#10;Retangulo termiando.&#10;fazendo funcionario." />
+    <option name="LAST_COMMIT_MESSAGE" value="exercicios da lista 5.&#10;Retangulo termiando.&#10;fazendo funcionario." />
   </component>
 </project>
