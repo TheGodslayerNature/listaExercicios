@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="exercicios da lista 5.&#10;Student terminado.&#10;Convertor de dollar para real terminado.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista6_exercicios/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista6_exercicios/AccountProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista6_exercicios/AccountTest.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="exercicio de orientação a objetos:&#10;classe account completa com seu test.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/ProductsProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/ProductsProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/ProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/ProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista6_exercicios/AccountProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista6_exercicios/AccountProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675777802250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="exercicio de orientação a objetos:&#10;classe account completa com seu test.">
+      <created>1675945631370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675945631370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +218,7 @@
     <MESSAGE value="exercicios da lista 5.&#10;Retangulo termiando.&#10;fazendo funcionario." />
     <MESSAGE value="exercicios da lista 5.&#10;Funcionario Terminado." />
     <MESSAGE value="exercicios da lista 5.&#10;Student terminado.&#10;Convertor de dollar para real terminado." />
-    <option name="LAST_COMMIT_MESSAGE" value="exercicios da lista 5.&#10;Student terminado.&#10;Convertor de dollar para real terminado." />
+    <MESSAGE value="exercicio de orientação a objetos:&#10;classe account completa com seu test." />
+    <option name="LAST_COMMIT_MESSAGE" value="exercicio de orientação a objetos:&#10;classe account completa com seu test." />
   </component>
 </project>
