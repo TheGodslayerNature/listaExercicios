@@ -15,7 +15,7 @@ public class ProductsProgram {
         System.out.print("Enter product price: ");
         product.setPrice(scanner.nextDouble());
         System.out.print("Enter product quantity: ");
-        product.setQuantity(scanner.nextInt());
+        product.addProducts(scanner.nextInt());
 
         System.out.println("Name " + product.getName());
         System.out.println("Price " + product.getPrice());

@@ -18,9 +18,7 @@ public class ProductsTest {
     }
     @Test
     public void testQuantity(){
-        maca.setQuantity(9);
-        assertEquals(9, maca.getQuantity());
-        maca.addProducts(2);
+        maca.addProducts(11);
         assertEquals(11, maca.getQuantity());
         maca.removeProducts(5);
         assertEquals(6, maca.getQuantity());
