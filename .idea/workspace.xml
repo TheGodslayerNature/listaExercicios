@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="exercicio de orientação a objetos:&#10;algumas refatorações para o AccountProgram, para diminuir as requisições de sout.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/NegativeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestNegativeNumbers.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="numeros negativos feito.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/VectorSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestVectorSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista6_exercicios/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista6_exercicios/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista6_exercicios/AccountProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista6_exercicios/AccountProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestNegativeNumbers.testNegative">
-    <configuration name="AccountProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista6_exercicios.AccountProgram" />
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista6_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VectorSum">
     <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
       <module name="lista_de_exercicios" />
@@ -86,22 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista6_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista6_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista6_exercicios.AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NegativeNumbersTest.testNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.VectorSum" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -109,10 +80,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbersTest" />
-      <option name="METHOD_NAME" value="testNegativeNumbers" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,20 +100,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVectorSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista7_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestVectorSum" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVectorSum.testVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista7_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestVectorSum" />
+      <option name="METHOD_NAME" value="testVector" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AccountProgram" />
+      <item itemvalue="Application.VectorSum" />
       <item itemvalue="Application.NegativeNumbers" />
       <item itemvalue="JUnit.TestNegativeNumbers.testNegative" />
-      <item itemvalue="JUnit.AccountTest" />
-      <item itemvalue="JUnit.NegativeNumbersTest.testNegativeNumbers" />
+      <item itemvalue="JUnit.TestVectorSum" />
+      <item itemvalue="JUnit.TestVectorSum.testVector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VectorSum" />
+        <item itemvalue="JUnit.TestVectorSum" />
+        <item itemvalue="JUnit.TestVectorSum.testVector" />
         <item itemvalue="JUnit.TestNegativeNumbers.testNegative" />
         <item itemvalue="Application.NegativeNumbers" />
-        <item itemvalue="JUnit.NegativeNumbersTest.testNegativeNumbers" />
-        <item itemvalue="Application.AccountProgram" />
-        <item itemvalue="JUnit.AccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675950512334</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="numeros negativos feito.">
+      <created>1676292876092</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676292876092</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +236,7 @@
     <MESSAGE value="exercicios da lista 5.&#10;Student terminado.&#10;Convertor de dollar para real terminado." />
     <MESSAGE value="exercicio de orientação a objetos:&#10;classe account completa com seu test." />
     <MESSAGE value="exercicio de orientação a objetos:&#10;algumas refatorações para o AccountProgram, para diminuir as requisições de sout." />
-    <option name="LAST_COMMIT_MESSAGE" value="exercicio de orientação a objetos:&#10;algumas refatorações para o AccountProgram, para diminuir as requisições de sout." />
+    <MESSAGE value="numeros negativos feito." />
+    <option name="LAST_COMMIT_MESSAGE" value="numeros negativos feito." />
   </component>
 </project>
