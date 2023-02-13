@@ -3,16 +3,16 @@ package lista6_exercicios;
 public class Account {
     private final int numberAccount;
     private String nameAccount;
-    private double initialDeposit;
-    Account(int numberAccount, String nameAccount, double initialDeposit){
+    private double balance;
+    Account(int numberAccount, String nameAccount, double balance){
         this.numberAccount = numberAccount;
         this.nameAccount = nameAccount;
-        this.initialDeposit = initialDeposit;
+        deposit(balance);
     }
     Account(int numberAccount, String nameAccount){
         this.numberAccount = numberAccount;
         this.nameAccount = nameAccount;
-        initialDeposit = 0.0;
+        balance = 0.0;
     }
     public int getNumberAccount(){
         return numberAccount;
@@ -21,18 +21,16 @@ public class Account {
         return nameAccount;
     }
     public double getDeposit(){
-        return initialDeposit;
+        return balance;
     }
     public void changeNameAccount(String nameChange){
         nameAccount = nameChange;
     }
     public void deposit(double deposit){
-        initialDeposit += deposit;
+        balance += deposit;
     }
     public void withDraw(double withDraw){
-        double tax = 5.00;
-        initialDeposit -= tax;
-        initialDeposit -= withDraw;
+        balance -= withDraw + 5;
     }
     @Override
     public boolean equals(Object obj) {

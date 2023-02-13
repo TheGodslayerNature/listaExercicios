@@ -52,6 +52,8 @@ public class AccountProgram {
         account.withDraw(scanner.nextDouble());
 
         printUpdateAccountData(account.getNumberAccount(),account.getNameAccount(),account.getDeposit());
+
+        scanner.close();
     }
 
     public static void printData(int number, String name,double initialDeposit){
