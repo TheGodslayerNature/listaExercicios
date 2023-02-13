@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="numeros negativos feito.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/VectorSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestVectorSum.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="soma e media de vetores;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PessoaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +58,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VectorSum">
-    <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
+  <component name="RunManager" selected="Application.PessoaProgram">
+    <configuration name="PessoaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNegativeNumbers.testNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -93,9 +94,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestNegativeNumbers" />
-      <option name="METHOD_NAME" value="testNegative" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,19 +132,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PessoaProgram" />
       <item itemvalue="Application.VectorSum" />
-      <item itemvalue="Application.NegativeNumbers" />
-      <item itemvalue="JUnit.TestNegativeNumbers.testNegative" />
+      <item itemvalue="JUnit.PessoaTest" />
       <item itemvalue="JUnit.TestVectorSum" />
       <item itemvalue="JUnit.TestVectorSum.testVector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PessoaProgram" />
+        <item itemvalue="JUnit.PessoaTest" />
         <item itemvalue="Application.VectorSum" />
         <item itemvalue="JUnit.TestVectorSum" />
         <item itemvalue="JUnit.TestVectorSum.testVector" />
-        <item itemvalue="JUnit.TestNegativeNumbers.testNegative" />
-        <item itemvalue="Application.NegativeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676292876092</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="soma e media de vetores;">
+      <created>1676296123177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676296123177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +244,7 @@
     <MESSAGE value="exercicio de orientação a objetos:&#10;classe account completa com seu test." />
     <MESSAGE value="exercicio de orientação a objetos:&#10;algumas refatorações para o AccountProgram, para diminuir as requisições de sout." />
     <MESSAGE value="numeros negativos feito." />
-    <option name="LAST_COMMIT_MESSAGE" value="numeros negativos feito." />
+    <MESSAGE value="soma e media de vetores;" />
+    <option name="LAST_COMMIT_MESSAGE" value="soma e media de vetores;" />
   </component>
 </project>
