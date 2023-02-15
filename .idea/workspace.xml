@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="below average">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="average evens.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PeoplesNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PairAverages">
+  <component name="RunManager" selected="Application.PeoplesNames">
     <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
       <module name="lista_de_exercicios" />
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RealNumbersProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.RealNumbersProgram" />
+    <configuration name="PeoplesNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PeoplesNames" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -128,17 +130,17 @@
     <list>
       <item itemvalue="Application.BelowAverageProgram" />
       <item itemvalue="Application.PairAverages" />
-      <item itemvalue="Application.RealNumbersProgram" />
+      <item itemvalue="Application.PeoplesNames" />
       <item itemvalue="Application.VectorSumProgram" />
       <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PeoplesNames" />
         <item itemvalue="Application.PairAverages" />
         <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
         <item itemvalue="Application.BelowAverageProgram" />
         <item itemvalue="Application.VectorSumProgram" />
-        <item itemvalue="Application.RealNumbersProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676466393556</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="average evens.">
+      <created>1676475841517</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676475841517</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +288,7 @@
     <MESSAGE value="Real numbers" />
     <MESSAGE value="Sum vectors" />
     <MESSAGE value="below average" />
-    <option name="LAST_COMMIT_MESSAGE" value="below average" />
+    <MESSAGE value="average evens." />
+    <option name="LAST_COMMIT_MESSAGE" value="average evens." />
   </component>
 </project>

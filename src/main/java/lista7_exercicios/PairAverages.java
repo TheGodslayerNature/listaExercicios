@@ -1,6 +1,5 @@
 package lista7_exercicios;
 
-import java.util.Formatter;
 import java.util.Locale;
 import java.util.Scanner;
 
