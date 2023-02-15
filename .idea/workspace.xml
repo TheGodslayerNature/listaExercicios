@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="números pares">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/RealNumbersProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/RealNumbersTest.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Real numbers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/VectorSumProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RealNumbersProgram">
+  <component name="RunManager" selected="Application.VectorSumProgram">
     <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
       <module name="lista_de_exercicios" />
@@ -97,7 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairTest.testPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VectorSumProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.VectorSumProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -105,10 +105,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairTest" />
-      <option name="METHOD_NAME" value="testPair" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,16 +129,16 @@
       <item itemvalue="Application.NegativeNumbers" />
       <item itemvalue="Application.PairProgram" />
       <item itemvalue="Application.RealNumbersProgram" />
-      <item itemvalue="JUnit.PairTest.testPair" />
+      <item itemvalue="Application.VectorSumProgram" />
       <item itemvalue="JUnit.RealNumbersTest.testNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VectorSumProgram" />
         <item itemvalue="Application.RealNumbersProgram" />
         <item itemvalue="JUnit.RealNumbersTest.testNumber" />
         <item itemvalue="Application.PairProgram" />
         <item itemvalue="Application.NegativeNumbers" />
-        <item itemvalue="JUnit.PairTest.testPair" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676461585661</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Real numbers">
+      <created>1676464972272</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676464972272</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +262,7 @@
     <MESSAGE value="soma e media de vetores;" />
     <MESSAGE value="average people age and height." />
     <MESSAGE value="números pares" />
-    <option name="LAST_COMMIT_MESSAGE" value="números pares" />
+    <MESSAGE value="Real numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Real numbers" />
   </component>
 </project>
