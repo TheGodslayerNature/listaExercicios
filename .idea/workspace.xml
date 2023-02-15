@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="average people age and height.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PairTest.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="números pares">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/RealNumbersProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/RealNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,20 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PairProgram">
-    <configuration name="Impares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista4_exercicios.Impares" />
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista4_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RealNumbersProgram">
     <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
       <module name="lista_de_exercicios" />
@@ -99,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaProgram" />
+    <configuration name="RealNumbersProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.RealNumbersProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -128,20 +113,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RealNumbersTest.testNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista7_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.RealNumbersTest" />
+      <option name="METHOD_NAME" value="testNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Impares" />
       <item itemvalue="Application.NegativeNumbers" />
       <item itemvalue="Application.PairProgram" />
-      <item itemvalue="Application.PessoaProgram" />
+      <item itemvalue="Application.RealNumbersProgram" />
       <item itemvalue="JUnit.PairTest.testPair" />
+      <item itemvalue="JUnit.RealNumbersTest.testNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RealNumbersProgram" />
+        <item itemvalue="JUnit.RealNumbersTest.testNumber" />
         <item itemvalue="Application.PairProgram" />
         <item itemvalue="Application.NegativeNumbers" />
         <item itemvalue="JUnit.PairTest.testPair" />
-        <item itemvalue="Application.Impares" />
-        <item itemvalue="Application.PessoaProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676305248481</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="números pares">
+      <created>1676461585661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676461585661</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +258,7 @@
     <MESSAGE value="numeros negativos feito." />
     <MESSAGE value="soma e media de vetores;" />
     <MESSAGE value="average people age and height." />
-    <option name="LAST_COMMIT_MESSAGE" value="average people age and height." />
+    <MESSAGE value="números pares" />
+    <option name="LAST_COMMIT_MESSAGE" value="números pares" />
   </component>
 </project>
