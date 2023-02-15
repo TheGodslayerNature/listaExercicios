@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="soma e media de vetores;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PessoaTest.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="average people age and height.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PairTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista4_exercicios/Impares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,46 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PessoaProgram">
+  <component name="RunManager" selected="Application.PairProgram">
+    <configuration name="Impares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista4_exercicios.Impares" />
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista4_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PairProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairProgram" />
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PessoaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaProgram" />
       <module name="lista_de_exercicios" />
@@ -72,20 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.VectorSum" />
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PairTest.testPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -94,57 +121,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVectorSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestVectorSum" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVectorSum.testVector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestVectorSum" />
-      <option name="METHOD_NAME" value="testVector" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairTest" />
+      <option name="METHOD_NAME" value="testPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Impares" />
+      <item itemvalue="Application.NegativeNumbers" />
+      <item itemvalue="Application.PairProgram" />
       <item itemvalue="Application.PessoaProgram" />
-      <item itemvalue="Application.VectorSum" />
-      <item itemvalue="JUnit.PessoaTest" />
-      <item itemvalue="JUnit.TestVectorSum" />
-      <item itemvalue="JUnit.TestVectorSum.testVector" />
+      <item itemvalue="JUnit.PairTest.testPair" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairProgram" />
+        <item itemvalue="Application.NegativeNumbers" />
+        <item itemvalue="JUnit.PairTest.testPair" />
+        <item itemvalue="Application.Impares" />
         <item itemvalue="Application.PessoaProgram" />
-        <item itemvalue="JUnit.PessoaTest" />
-        <item itemvalue="Application.VectorSum" />
-        <item itemvalue="JUnit.TestVectorSum" />
-        <item itemvalue="JUnit.TestVectorSum.testVector" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676296123177</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="average people age and height.">
+      <created>1676305248481</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676305248481</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +249,7 @@
     <MESSAGE value="exercicio de orientação a objetos:&#10;algumas refatorações para o AccountProgram, para diminuir as requisições de sout." />
     <MESSAGE value="numeros negativos feito." />
     <MESSAGE value="soma e media de vetores;" />
-    <option name="LAST_COMMIT_MESSAGE" value="soma e media de vetores;" />
+    <MESSAGE value="average people age and height." />
+    <option name="LAST_COMMIT_MESSAGE" value="average people age and height." />
   </component>
 </project>

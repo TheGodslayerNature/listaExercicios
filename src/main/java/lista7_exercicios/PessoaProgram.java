@@ -11,17 +11,19 @@ public class PessoaProgram {
         System.out.println("Quantas pessoas serão digitadas? ");
         int quantity = scanner.nextInt();
         Pessoa[] pessoas = new Pessoa[quantity];
+        int person = 1;
         for (int i = 0; i < quantity; i++) {
             scanner.nextLine();
-            System.out.println("Digite o nome");
+            System.out.println("Digite o nome da " + person + " pessoa");
             name = scanner.nextLine();
-            System.out.println("Digite a idade");
+            System.out.println("Digite a idade da " + person + " pessoa");
             age = scanner.nextInt();
-            System.out.println("Digite a altura");
+            System.out.println("Digite a altura da " + person + " pessoa");
             height = scanner.nextDouble();
+            person++;
             pessoas[i] = new Pessoa(name,age,height);
         }
-        System.out.println("average height: " + averageHeight(pessoas));
+        System.out.printf("average height: %02f%n" ,averageHeight(pessoas));
         System.out.println("People less than 16 years: " + percent(pessoas) + "%");
     }
     public static double percent(Pessoa[] peoples){
