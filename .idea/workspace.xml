@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Sum vectors">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/BelowAverageProgram.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="below average">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BelowAverageProgram">
+  <component name="RunManager" selected="Application.PairAverages">
     <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
       <module name="lista_de_exercicios" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairProgram" />
+    <configuration name="PairAverages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairAverages" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RealNumbersTest.testNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PairAverageTest.testAverageEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +118,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.RealNumbersTest" />
-      <option name="METHOD_NAME" value="testNumber" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PairAverageTest" />
+      <option name="METHOD_NAME" value="testAverageEven" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,18 +127,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BelowAverageProgram" />
-      <item itemvalue="Application.PairProgram" />
+      <item itemvalue="Application.PairAverages" />
       <item itemvalue="Application.RealNumbersProgram" />
       <item itemvalue="Application.VectorSumProgram" />
-      <item itemvalue="JUnit.RealNumbersTest.testNumber" />
+      <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PairAverages" />
+        <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
         <item itemvalue="Application.BelowAverageProgram" />
         <item itemvalue="Application.VectorSumProgram" />
         <item itemvalue="Application.RealNumbersProgram" />
-        <item itemvalue="JUnit.RealNumbersTest.testNumber" />
-        <item itemvalue="Application.PairProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676465670229</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="below average">
+      <created>1676466393556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676466393556</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +278,7 @@
     <MESSAGE value="números pares" />
     <MESSAGE value="Real numbers" />
     <MESSAGE value="Sum vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum vectors" />
+    <MESSAGE value="below average" />
+    <option name="LAST_COMMIT_MESSAGE" value="below average" />
   </component>
 </project>
