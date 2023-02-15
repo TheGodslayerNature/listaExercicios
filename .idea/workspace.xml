@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Real numbers">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/VectorSumProgram.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Sum vectors">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/BelowAverageProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +56,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VectorSumProgram">
-    <configuration name="NegativeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.NegativeNumbers" />
+  <component name="RunManager" selected="Application.BelowAverageProgram">
+    <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +126,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NegativeNumbers" />
+      <item itemvalue="Application.BelowAverageProgram" />
       <item itemvalue="Application.PairProgram" />
       <item itemvalue="Application.RealNumbersProgram" />
       <item itemvalue="Application.VectorSumProgram" />
@@ -134,11 +134,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BelowAverageProgram" />
         <item itemvalue="Application.VectorSumProgram" />
         <item itemvalue="Application.RealNumbersProgram" />
         <item itemvalue="JUnit.RealNumbersTest.testNumber" />
         <item itemvalue="Application.PairProgram" />
-        <item itemvalue="Application.NegativeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676464972272</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Sum vectors">
+      <created>1676465670229</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676465670229</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +270,7 @@
     <MESSAGE value="average people age and height." />
     <MESSAGE value="números pares" />
     <MESSAGE value="Real numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Real numbers" />
+    <MESSAGE value="Sum vectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum vectors" />
   </component>
 </project>
