@@ -2,7 +2,7 @@ package lista7_exercicios;
 
 import java.util.Scanner;
 
-public class PeoplesNames {
+public class MaisVelho {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Quantas pessoas você vai digitar? ");

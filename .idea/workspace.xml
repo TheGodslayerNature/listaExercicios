@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="average evens.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PeoplesNames.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="peoplesNames">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/AverageManAndWomanHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Students.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PeoplesNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/MaisVelho.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +58,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PeoplesNames">
-    <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
+  <component name="RunManager" selected="Application.AverageManAndWomanHeight">
+    <configuration name="AverageManAndWomanHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.AverageManAndWomanHeight" />
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaisVelho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.MaisVelho" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -85,21 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeoplesNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PeoplesNames" />
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorSumProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.VectorSumProgram" />
+    <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.Students" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BelowAverageProgram" />
+      <item itemvalue="Application.AverageManAndWomanHeight" />
+      <item itemvalue="Application.MaisVelho" />
       <item itemvalue="Application.PairAverages" />
-      <item itemvalue="Application.PeoplesNames" />
-      <item itemvalue="Application.VectorSumProgram" />
+      <item itemvalue="Application.Students" />
       <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PeoplesNames" />
+        <item itemvalue="Application.AverageManAndWomanHeight" />
+        <item itemvalue="Application.Students" />
+        <item itemvalue="Application.MaisVelho" />
         <item itemvalue="Application.PairAverages" />
         <item itemvalue="JUnit.PairAverageTest.testAverageEven" />
-        <item itemvalue="Application.BelowAverageProgram" />
-        <item itemvalue="Application.VectorSumProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676475841517</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="peoplesNames">
+      <created>1676477759731</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676477759731</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +296,7 @@
     <MESSAGE value="Sum vectors" />
     <MESSAGE value="below average" />
     <MESSAGE value="average evens." />
-    <option name="LAST_COMMIT_MESSAGE" value="average evens." />
+    <MESSAGE value="peoplesNames" />
+    <option name="LAST_COMMIT_MESSAGE" value="peoplesNames" />
   </component>
 </project>
