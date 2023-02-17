@@ -50,5 +50,7 @@ public class AverageManAndWomanHeight {
         }
         System.out.printf("Media das alturas das mulheres = %.2f%n",meninas / numeroDeMeninas);
         System.out.println("Numero de homens = " + numerosDeHomens);
+
+        scanner.close();
     }
 }

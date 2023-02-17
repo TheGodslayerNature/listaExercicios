@@ -29,5 +29,6 @@ public class PairAverages {
         else {
             System.out.println("media dos pares " + totalEven / evenQuantity);
         }
+        scanner.close();
     }
 }
