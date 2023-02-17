@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="exercicios terminados.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestBelowAverage.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="belowAverage refactored.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestMaisVelho.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/AverageManAndWomanHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/AverageManAndWomanHeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/BelowAverageProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/BelowAverageProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PairAverages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/MaisVelho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/MaisVelho.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +57,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BelowAverageProgram">
-    <configuration name="AverageManAndWomanHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.AverageManAndWomanHeight" />
+  <component name="RunManager" selected="Application.MaisVelho">
+    <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
+    <configuration name="MaisVelho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.MaisVelho" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -101,22 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBelowAverage.testAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestBelowAverage" />
-      <option name="METHOD_NAME" value="testAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestBelowAverage.testBelowAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
@@ -133,20 +115,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMaisVelho.testPessoaMaisVelha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lista7_exercicios" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestMaisVelho" />
+      <option name="METHOD_NAME" value="testPessoaMaisVelha" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AverageManAndWomanHeight" />
+      <item itemvalue="Application.MaisVelho" />
       <item itemvalue="Application.BelowAverageProgram" />
       <item itemvalue="JUnit.TestBelowAverage" />
-      <item itemvalue="JUnit.TestBelowAverage.testAverage" />
       <item itemvalue="JUnit.TestBelowAverage.testBelowAverage" />
+      <item itemvalue="JUnit.TestMaisVelho.testPessoaMaisVelha" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaisVelho" />
+        <item itemvalue="JUnit.TestMaisVelho.testPessoaMaisVelha" />
         <item itemvalue="Application.BelowAverageProgram" />
         <item itemvalue="JUnit.TestBelowAverage.testBelowAverage" />
         <item itemvalue="JUnit.TestBelowAverage" />
-        <item itemvalue="JUnit.TestBelowAverage.testAverage" />
-        <item itemvalue="Application.AverageManAndWomanHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676635688355</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="belowAverage refactored.">
+      <created>1676640703810</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676640703810</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +316,7 @@
     <MESSAGE value="average evens." />
     <MESSAGE value="peoplesNames" />
     <MESSAGE value="exercicios terminados." />
-    <option name="LAST_COMMIT_MESSAGE" value="exercicios terminados." />
+    <MESSAGE value="belowAverage refactored." />
+    <option name="LAST_COMMIT_MESSAGE" value="belowAverage refactored." />
   </component>
 </project>
