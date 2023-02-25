@@ -10,18 +10,15 @@ public class RealNumbersProgram {
         System.out.print("Quantos números você vai digitar? ");
         int quantity  = scanner.nextInt();
         double[] vetor = new double[quantity];
+
         for (int i = 0; i < quantity; i++) {
             System.out.print("Digite um número: ");
             vetor[i] = scanner.nextDouble();
         }
-        double maior = vetor[0];
-        for (int i = 1; i < vetor.length; i++) {
-            if (vetor[i] > maior){
-                maior = vetor[i];
-            }
-        }
-        System.out.println("Maior valor = " + maior);
+        System.out.println("Maior valor = " + getGreatestValue(vetor));
         System.out.println("Posição do maior valor = " + greatestValueIndice(vetor));
+
+        scanner.close();
     }
     public static int greatestValueIndice(double[] numbers){
         double maior = numbers[0];
@@ -35,5 +32,14 @@ public class RealNumbersProgram {
             }
         }
         return indice;
+    }
+    public static double getGreatestValue(double[] numbers){
+        double maior = 0;
+        for (int i = 1; i < numbers.length; i++) {
+            if (maior < numbers[i]){
+                maior = numbers[i];
+            }
+        }
+        return maior;
     }
 }

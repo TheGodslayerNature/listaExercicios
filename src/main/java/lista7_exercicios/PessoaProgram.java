@@ -1,14 +1,16 @@
 package lista7_exercicios;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PessoaProgram {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.ENGLISH);
         Scanner scanner = new Scanner(System.in);
         String name;
         int age;
         double height;
-        System.out.println("Quantas pessoas serão digitadas? ");
+        System.out.print("Quantas pessoas serão digitadas? ");
         int quantity = scanner.nextInt();
         Pessoa[] pessoas = new Pessoa[quantity];
         int person = 1;
@@ -25,6 +27,8 @@ public class PessoaProgram {
         }
         System.out.printf("average height: %02f%n" ,averageHeight(pessoas));
         System.out.println("People less than 16 years: " + percent(pessoas) + "%");
+
+        scanner.close();
     }
     public static double percent(Pessoa[] peoples){
         double quantity = 0;

@@ -40,11 +40,11 @@ public class AverageManAndWomanHeight {
         double numeroDeMeninas = 0;
         int numerosDeHomens = 0;
         for (int i = 0; i < quantity; i++) {
-            if (generos[i].equals('F') || generos[i].equals('f')){
+            if (isWoman(generos[i])){
                 numeroDeMeninas++;
                 meninas += alturas[i];
             }
-            else if (generos[i].equals('M') || generos[i].equals('m')){
+            else if (isMan(generos[i])){
                 numerosDeHomens++;
             }
         }
@@ -52,5 +52,18 @@ public class AverageManAndWomanHeight {
         System.out.println("Numero de homens = " + numerosDeHomens);
 
         scanner.close();
+    }
+    public static double womanAverageHeight(Pessoa[] mulheres){
+        double totalHeight = 0;
+        for (Pessoa sumHeight: mulheres){
+            totalHeight += sumHeight.getHeight();;
+        }
+        return totalHeight / mulheres.length;
+    }
+    public static boolean isWoman(char gender){
+        return gender == 'F' || gender == 'f';
+    }
+    public static boolean isMan(char gender){
+        return gender == 'M' || gender == 'm';
     }
 }

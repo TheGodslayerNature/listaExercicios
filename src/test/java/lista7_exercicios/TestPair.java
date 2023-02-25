@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class PairTest {
+public class TestPair {
     @Test
     public void testPair(){
         int[] pairs = {0,2,4,6};

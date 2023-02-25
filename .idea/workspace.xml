@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="belowAverage refactored.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestMaisVelho.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Mais velho refatorado.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pensionato/Pensionato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pensionato/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestAverageManAndWomanHeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestMaiorVetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pensionato/TestPensionato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pensionato/TestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/MaisVelho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/MaisVelho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalcularCelsius.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FuncoesAula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PrimeiraEntradaDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SegundaEntradaDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ternario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/AverageManAndWomanHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/AverageManAndWomanHeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/PessoaProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista7_exercicios/RealNumbersProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista7_exercicios/RealNumbersProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PairTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lista7_exercicios/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lista7_exercicios/RealNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lista7_exercicios/TestRealNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +73,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaisVelho">
-    <configuration name="BelowAverageProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.BelowAverageProgram" />
+  <component name="RunManager" selected="Application.Pensionato">
+    <configuration name="Pensionato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pensionato.Pensionato" />
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pensionato.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.PessoaProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaisVelho" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.MaisVelho" />
+    <configuration name="RealNumbersProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.RealNumbersProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBelowAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMaiorVetor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
@@ -93,58 +122,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestBelowAverage" />
+      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestMaiorVetor" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBelowAverage.testBelowAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
+          <option name="PATTERN" value="pensionato.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestBelowAverage" />
-      <option name="METHOD_NAME" value="testBelowAverage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMaisVelho.testPessoaMaisVelha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lista7_exercicios.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lista7_exercicios" />
-      <option name="MAIN_CLASS_NAME" value="lista7_exercicios.TestMaisVelho" />
-      <option name="METHOD_NAME" value="testPessoaMaisVelha" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="pensionato" />
+      <option name="MAIN_CLASS_NAME" value="pensionato.TestStudent" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaisVelho" />
-      <item itemvalue="Application.BelowAverageProgram" />
-      <item itemvalue="JUnit.TestBelowAverage" />
-      <item itemvalue="JUnit.TestBelowAverage.testBelowAverage" />
-      <item itemvalue="JUnit.TestMaisVelho.testPessoaMaisVelha" />
+      <item itemvalue="Application.Pensionato" />
+      <item itemvalue="Application.PessoaProgram" />
+      <item itemvalue="Application.RealNumbersProgram" />
+      <item itemvalue="JUnit.TestStudent" />
+      <item itemvalue="JUnit.TestMaiorVetor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaisVelho" />
-        <item itemvalue="JUnit.TestMaisVelho.testPessoaMaisVelha" />
-        <item itemvalue="Application.BelowAverageProgram" />
-        <item itemvalue="JUnit.TestBelowAverage.testBelowAverage" />
-        <item itemvalue="JUnit.TestBelowAverage" />
+        <item itemvalue="Application.Pensionato" />
+        <item itemvalue="JUnit.TestStudent" />
+        <item itemvalue="Application.PessoaProgram" />
+        <item itemvalue="Application.RealNumbersProgram" />
+        <item itemvalue="JUnit.TestMaiorVetor" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676640703810</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Mais velho refatorado.">
+      <created>1676642665064</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676642665064</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +336,7 @@
     <MESSAGE value="peoplesNames" />
     <MESSAGE value="exercicios terminados." />
     <MESSAGE value="belowAverage refactored." />
-    <option name="LAST_COMMIT_MESSAGE" value="belowAverage refactored." />
+    <MESSAGE value="Mais velho refatorado." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mais velho refatorado." />
   </component>
 </project>
