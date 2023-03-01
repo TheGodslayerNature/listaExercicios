@@ -2,6 +2,8 @@ package matrix;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestMatrix {
@@ -31,7 +33,6 @@ public class TestMatrix {
             }
         }
     }
-
     @Test
     public void testElement(){
         int[][] expected = { {1, 7}, {8, 2}};
@@ -39,7 +40,17 @@ public class TestMatrix {
         assertEquals("Position 1, 0", Matrix.checkPosition(expected,8));
         assertEquals("Position 0, 1", Matrix.checkPosition(expected,7));
         assertEquals("Position 1, 1", Matrix.checkPosition(expected,2));
+    }
 
-
+    @Test
+    public void testLeft(){
+        int[][] expected = {
+                {1, 7, 12},
+                {8, 2},
+                {5, 4},
+        };
+        assertEquals("Left: 1", Matrix.checkLeft(expected, 7));
+        assertEquals("Left: 8", Matrix.checkLeft(expected, 2));
+        assertEquals("Left: 7", Matrix.checkLeft(expected, 12));
     }
 }
