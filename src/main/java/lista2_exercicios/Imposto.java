@@ -26,7 +26,7 @@ public class Imposto {
             double valorDepoisDaInsencao = salario - INSENCAO;
             double calculoDeOito = valorDepoisDaInsencao - 1520.00;
             double calculoDeDezoito = valorDepoisDaInsencao - 1020.00; 
-            Double calculoDeVinte = valorDepoisDaInsencao - 2500.00;
+            double calculoDeVinte = valorDepoisDaInsencao - 2500.00;
             return (calculoDeOito * OITO_PORCENTO) + (calculoDeDezoito * DEZOITO_PORCENTO) + (calculoDeVinte * VINTE_OITO_PORCENTO);
         }
 

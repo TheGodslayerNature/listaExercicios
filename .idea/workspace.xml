@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Making matrix test. Position and elements was implemented.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/HourContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/WorkerProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/enums/WorkerLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/DepartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/HourContractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/WorkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/matrix/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/matrix/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/matrix/TestMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/matrix/TestMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Imposto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -58,13 +66,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMatrix">
-    <configuration name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="matrix.Matrix" />
+  <component name="RunManager" selected="Application.WorkerProgram">
+    <configuration name="WorkerProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secao13.WorkerProgram" />
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="secao13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,83 +80,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="secao13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="matrix" />
-      <option name="MAIN_CLASS_NAME" value="matrix.TestMatrix" />
+      <option name="PACKAGE_NAME" value="secao13" />
+      <option name="MAIN_CLASS_NAME" value="secao13.DepartmentTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMatrix.testLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HourContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="secao13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="matrix" />
-      <option name="MAIN_CLASS_NAME" value="matrix.TestMatrix" />
-      <option name="METHOD_NAME" value="testLeft" />
+      <option name="PACKAGE_NAME" value="secao13" />
+      <option name="MAIN_CLASS_NAME" value="secao13.HourContractTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HourContractTest.testHourContract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="secao13" />
+      <option name="MAIN_CLASS_NAME" value="secao13.HourContractTest" />
+      <option name="METHOD_NAME" value="testHourContract" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMatrix.testMatrixElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix.*" />
+          <option name="PATTERN" value="secao13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="matrix" />
-      <option name="MAIN_CLASS_NAME" value="matrix.TestMatrix" />
-      <option name="METHOD_NAME" value="testMatrixElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMatrix.testMatrixLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="matrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="matrix" />
-      <option name="MAIN_CLASS_NAME" value="matrix.TestMatrix" />
-      <option name="METHOD_NAME" value="testMatrixLength" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="secao13" />
+      <option name="MAIN_CLASS_NAME" value="secao13.WorkerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Matrix" />
-      <item itemvalue="JUnit.TestMatrix" />
-      <item itemvalue="JUnit.TestMatrix.testLeft" />
-      <item itemvalue="JUnit.TestMatrix.testMatrixElements" />
-      <item itemvalue="JUnit.TestMatrix.testMatrixLength" />
+      <item itemvalue="Application.WorkerProgram" />
+      <item itemvalue="JUnit.DepartmentTest" />
+      <item itemvalue="JUnit.HourContractTest" />
+      <item itemvalue="JUnit.HourContractTest.testHourContract" />
+      <item itemvalue="JUnit.WorkerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestMatrix" />
-        <item itemvalue="JUnit.TestMatrix.testLeft" />
-        <item itemvalue="Application.Matrix" />
-        <item itemvalue="JUnit.TestMatrix.testMatrixElements" />
-        <item itemvalue="JUnit.TestMatrix.testMatrixLength" />
+        <item itemvalue="Application.WorkerProgram" />
+        <item itemvalue="JUnit.WorkerTest" />
+        <item itemvalue="JUnit.HourContractTest" />
+        <item itemvalue="JUnit.HourContractTest.testHourContract" />
+        <item itemvalue="JUnit.DepartmentTest" />
       </list>
     </recent_temporary>
   </component>
