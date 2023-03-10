@@ -3,13 +3,17 @@ package secao13;
 
 import secao13.enums.WorkerLevel;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
 public class WorkerProgram {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
         Worker worker;
         Scanner scanner = new Scanner(System.in);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+
         System.out.print("Enter department's name: ");
         String department = scanner.nextLine();
 
@@ -29,21 +33,11 @@ public class WorkerProgram {
         worker = new Worker(name, WorkerLevel.valueOf(level), baseSalary, new Department(department));
 
         for (int i = 1; i <= contract; i++) {
-
+            scanner.nextLine();
             System.out.println("Enter contract #" + i + " data:");
-            System.out.print("Enter year: ");
-            int year = scanner.nextInt();
-            scanner.nextLine();
+            System.out.println("Date (dd/MM/yyyy)");
+            Date date = dateFormat.parse(scanner.nextLine());
 
-            System.out.print("Enter month: ");
-            int month = scanner.nextInt();
-            scanner.nextLine();
-
-            System.out.print("Enter day: ");
-            int day = scanner.nextInt();
-            scanner.nextLine();
-
-            Date date = new Date(year,month,day);
             System.out.print("value per hour: ");
             double perHour = scanner.nextDouble();
             System.out.print("Duration (hours): ");
@@ -53,9 +47,10 @@ public class WorkerProgram {
             worker.addContract(contracts);
         }
 
-        System.out.print("Enter month and year to calculate income: ");
-        int month = scanner.nextInt();
-        int year = scanner.nextInt();;
+        System.out.print("Enter month and year to calculate income (MM/YYYY): ");
+        String monthAndYear = scanner.next();
+        int month = Integer.parseInt(monthAndYear.substring(0,2));
+        int year = Integer.parseInt(monthAndYear.substring(3));
 
         System.out.println(worker.toString());
         System.out.println("Income for " + month + "/" + year + ": " + worker.income(year,month));

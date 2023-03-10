@@ -2,7 +2,10 @@ package secao13;
 
 import secao13.enums.WorkerLevel;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class Worker {
@@ -33,8 +36,13 @@ public class Worker {
     }
     public double income(Integer year, Integer month){
         double total = baseSalary;
+        Calendar calendar = Calendar.getInstance();
+
         for (HourContract contract: hourContractList){
-            if (month == contract.getDate().getMonth() && year == contract.getDate().getYear()){
+            calendar.setTime(contract.getDate());
+            int y = calendar.getWeekYear();
+            int m = 1 + calendar.get(Calendar.MONTH);
+            if (month == m  && year == y){
                 total += contract.totalValue();
             }
         }

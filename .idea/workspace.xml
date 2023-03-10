@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="Making matrix test. Position and elements was implemented.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/HourContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/WorkerProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/enums/WorkerLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/DepartmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/HourContractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/WorkerTest.java" afterDir="false" />
+    <list default="true" id="ccf2e6c1-7caf-4b21-9c14-1cc834ee67ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/exercicio/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/exercicio/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/exercicio/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/exercicio/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/secao13/exercicio/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/exercicio/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/secao13/exercicio/OrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lista2_exercicios/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/secao13/HourContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/secao13/HourContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/secao13/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/secao13/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/secao13/WorkerProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/secao13/WorkerProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/secao13/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/secao13/WorkerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,95 +68,91 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkerProgram">
-    <configuration name="WorkerProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secao13.WorkerProgram" />
+  <component name="RunManager" selected="JUnit.java in lista_de_exercicios">
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secao13.*" />
+          <option name="PATTERN" value="secao13.exercicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="secao13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="secao13" />
-      <option name="MAIN_CLASS_NAME" value="secao13.DepartmentTest" />
+      <option name="PACKAGE_NAME" value="secao13.exercicio" />
+      <option name="MAIN_CLASS_NAME" value="secao13.exercicio.ClientTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HourContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientTest.testBirthDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secao13.*" />
+          <option name="PATTERN" value="secao13.exercicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="secao13" />
-      <option name="MAIN_CLASS_NAME" value="secao13.HourContractTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HourContractTest.testHourContract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista_de_exercicios" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="secao13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="secao13" />
-      <option name="MAIN_CLASS_NAME" value="secao13.HourContractTest" />
-      <option name="METHOD_NAME" value="testHourContract" />
+      <option name="PACKAGE_NAME" value="secao13.exercicio" />
+      <option name="MAIN_CLASS_NAME" value="secao13.exercicio.ClientTest" />
+      <option name="METHOD_NAME" value="testBirthDate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista_de_exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secao13.*" />
+          <option name="PATTERN" value="secao13.exercicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="secao13" />
-      <option name="MAIN_CLASS_NAME" value="secao13.WorkerTest" />
+      <option name="PACKAGE_NAME" value="secao13.exercicio" />
+      <option name="MAIN_CLASS_NAME" value="secao13.exercicio.OrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderTest.testMoment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao13.exercicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="secao13.exercicio" />
+      <option name="MAIN_CLASS_NAME" value="secao13.exercicio.OrderTest" />
+      <option name="METHOD_NAME" value="testMoment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in lista_de_exercicios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista_de_exercicios" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.WorkerProgram" />
-      <item itemvalue="JUnit.DepartmentTest" />
-      <item itemvalue="JUnit.HourContractTest" />
-      <item itemvalue="JUnit.HourContractTest.testHourContract" />
-      <item itemvalue="JUnit.WorkerTest" />
+      <item itemvalue="JUnit.ClientTest" />
+      <item itemvalue="JUnit.ClientTest.testBirthDate" />
+      <item itemvalue="JUnit.OrderTest" />
+      <item itemvalue="JUnit.OrderTest.testMoment" />
+      <item itemvalue="JUnit.java in lista_de_exercicios" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WorkerProgram" />
-        <item itemvalue="JUnit.WorkerTest" />
-        <item itemvalue="JUnit.HourContractTest" />
-        <item itemvalue="JUnit.HourContractTest.testHourContract" />
-        <item itemvalue="JUnit.DepartmentTest" />
+        <item itemvalue="JUnit.java in lista_de_exercicios" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="JUnit.ClientTest.testBirthDate" />
+        <item itemvalue="JUnit.OrderTest.testMoment" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677642778430</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Worker program done.">
+      <created>1678445350178</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678445350178</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,6 +356,7 @@
     <MESSAGE value="Mais velho refatorado." />
     <MESSAGE value="Pensionato complete." />
     <MESSAGE value="Making matrix test. Position and elements was implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Making matrix test. Position and elements was implemented." />
+    <MESSAGE value="Worker program done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Worker program done." />
   </component>
 </project>
