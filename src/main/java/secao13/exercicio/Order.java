@@ -35,12 +35,20 @@ public class Order {
     public boolean hasClient() {
         return client != null;
     }
-
     public double total() {
         double total = 0;
         for (OrderItem item: items) {
             total += item.subTotal();
         }
         return total;
+    }
+    public String toString(){
+        String resumo = "";
+        for (OrderItem item: items)
+            resumo += item.toString();
+        return client.toString() + "\n"
+                + "Order items:" + "\n"
+                + resumo + '\n'
+                + "Total Price" + total();
     }
 }

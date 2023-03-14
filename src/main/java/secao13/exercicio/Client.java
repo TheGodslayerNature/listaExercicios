@@ -23,4 +23,7 @@ public class Client {
     public Date getBirthDate() {
         return birthDate;
     }
+    public String toString(){
+        return  "Client: " + name + " (" + birthDate + ")" + " - " + email + '\n';
+    }
 }
